@@ -1,20 +1,14 @@
 [tool.poetry]
 name = "awsglue-local"
-version = "0.9.1"
+version = "3.0.0"
 description = "Build Python interfaces to the AWS Glue ETL library for use as a local dependency."
-authors = ["Ryan Eloff <ryan.peter.eloff@gmail.com>"]
+authors = ["Ryan Eloff <kevin.truong.ds@gmail.com>"]
 packages = [
     { include = "awsglue" },
 ]
 license = "Amazon Software License 1.0"
 readme = "awsglue/README.md"
-repository = "https://github.com/rpeloff/aws-glue-libs"
-
-[tool.poetry.dependencies]
-python = "^2.7"
-pyspark = "^2.2"
-
-[tool.poetry.dev-dependencies]
+repository = "https://github.com/kevintruong/aws-glue-libs"
 
 [build-system]
 requires = ["poetry>=0.12"]
